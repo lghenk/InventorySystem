@@ -17,6 +17,7 @@ Ik heb gekozen voor C# omdat het robuste taal is die goed gebruikt wordt in de g
 - Een functionerende Inventory System in C#
 - Dynamische Items
 - Meer toonbare ervaring in C#
+- Gebruik maken van C#'s async en await keywords
 
 ## Planning 
 | | maandag | dinsdag | woensdag | donderdag | vrijdag |
