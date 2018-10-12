@@ -7,7 +7,6 @@ namespace Inventory_System.Item_Behaviours {
         protected string BehaviourName;
 
         public BaseItemBehaviour() {
-            Console.WriteLine($"Constructed Action {BehaviourName}");
         }
 
         /// <summary>
@@ -18,7 +17,11 @@ namespace Inventory_System.Item_Behaviours {
             return BehaviourName;
         }
 
-        // Under game circumstances one would add the option to provide a game object on which this actions should be used
+        public virtual void init() {
+            Console.WriteLine($"BaseItemBehaviour :: Constructed Action: {BehaviourName}");
+        }
+
+        // Under game circumstances one would add the option to provide a game object on which this actions should be used. That however is engine specific and therefor left out here.
         // TODO: Ability to pass along gameobject of interest
         public abstract void use(string[] args);
     }

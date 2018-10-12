@@ -4,6 +4,7 @@ using System.Text;
 using System.IO;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Inventory_System.Item_Behaviours;
 
 namespace Inventory_System {
     class ItemStack {
@@ -52,7 +53,7 @@ namespace Inventory_System {
         private string FILE_LOC = Directory.GetCurrentDirectory() + "/inventory_data.json";
         private bool hasLoadedItems = false;
         private List<Item> itemStack = new List<Item>();
-
+        
         public ItemStack() {
             Console.WriteLine("ItemStack :: Constructing");
 
