@@ -4,11 +4,8 @@
 Hier komt een korte beschrijving van de proefopdracht. Wat heb je precies gedaan? 
 
 ## Features
-Wanneer je een specifiek onderdeel wilt uitlichten kun je dat in deze sectie benoemen.
-
-- [Awesome Algoritme](link)
-- [Specifieke Mechanic](link)
-- [Iets unieks waar je trots op bent binnen de project](link)
+- [Dynamic Loading Of The Use Behaviours](https://github.com/lghenk/InventorySystem/blob/master/Inventory_System/BehaviourStack.cs)
+- [Dynamic Loading Of the Items](https://github.com/lghenk/InventorySystem/blob/master/Inventory_System/ItemStack.cs)
 
 ## Software Anaylse 
 Ik heb gekozen voor C# omdat het robuste taal is die goed gebruikt wordt in de game development industie en daar buiten.
